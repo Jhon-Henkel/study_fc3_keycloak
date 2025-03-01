@@ -9,7 +9,7 @@ services:
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=admin
       - KC_DB=mysql
-      - KC_BD_URL=jdbc:mysql://db:3306/keycloak
+      - KC_DB_URL=jdbc:mysql://db:3306/keycloak
       - KC_DB_USERNAME=root
       - KC_DB_PASSWORD=root
     depends_on:
